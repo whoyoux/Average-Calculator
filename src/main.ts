@@ -2,8 +2,6 @@ import { nanoid } from 'nanoid';
 
 import './style.css';
 
-const app = document.querySelector<HTMLDivElement>('#app')!;
-
 const mark = document.querySelector<HTMLInputElement>('#mark')!;
 const weight = document.querySelector<HTMLInputElement>('#weight')!;
 
